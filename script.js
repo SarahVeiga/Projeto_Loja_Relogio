@@ -32,4 +32,5 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(animateText, 300);
     }
   
-    animateText(); 
+    animateText();
+ }
