@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           index--;
         } else {
           isTyping = true;
-          // Alterna a cor entre preto e laranja
+
           currentColor =
             currentColor === (document.documentElement.classList.contains("light") ? "black" : "#fff")
               ? "#000000"
@@ -32,5 +32,4 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(animateText, 300);
     }
   
-    animateText(); // Inicia a animação
-  });
+    animateText(); 
