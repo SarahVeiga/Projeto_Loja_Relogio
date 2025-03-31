@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () ) {
     const titleElement = document.querySelector("#name");
     const text = "Minha Paixão";
     let index = 0;
